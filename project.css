@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/7.jpg);
+    background-size: cover;
+  
+    
+   
+    
+}
+
+.gridp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto ;
+    gap: 3px;
+    background-image: url(image/7.jpg);
+   background-size: cover;
+}
+
+.grid-col1-row1 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    border: 5px solid black;
+    color: white;
+    border: 2px solid white ;
+    margin-right: 150px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-col1-row2 {
+    display: grid;
+    grid-column:1;
+    grid-row: 2; 
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+
+}
+.grid-col1-row3-main{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 3;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.grid-colm1-row4{
+    display: grid;
+    grid-column: 3;
+    grid-row:4;
+    align-items: center;
+    margin: 50px;
+   
+}
+
+
+
+.card {
+    background-color: white;
+    padding: 5px;
+    border: 3px solid #777;
+    border-radius: 2px;
+    width: 392px;
+    background-image: url(image/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card-header {
+    font-size:large;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+.card-header.card-image {
+    overflow: hidden;
+}
+
+.card-header.card-image>img {
+    display: block;
+    width: auto;
+    height: 280px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms transform ease-in-out;
+}
+
+.card:hover>.card-header.card-image>img {
+    transform: scale(1.025);
+
+}
+
+.card-body {
+    font-size: large;
+    color: white;
+}
+
+.card-footer {
+    margin-top: 2px;
+}
+
+.btn {
+    background-color: hsl(200, 50%, 50%);
+    color: white;
+    border: none;
+    font-size: medium;
+    padding: 5px;
+    border-radius:5px;
+    cursor: pointer;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: hsl(200, 50%, 60%);
+}

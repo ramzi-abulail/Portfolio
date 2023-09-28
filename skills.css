@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+
+.gride{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto ;
+    gap: 10px;
+    background-image: url(image/23.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.e-flex{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+
+    margin-left: 30px;}
+.e-col1-row1{
+    display: grid;
+
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: bold;
+    text-align: center;
+    
+    font-size: 30px;
+}
+ .e-col1-row2{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: start;
+ }
+ 
+ .e-col1-row3{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    gap: 5px;
+    margin: 5px;
+    align-items: center;
+
+ }
+ .e-col2-row3{
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    gap: 5px;
+    align-items: center;
+
+    margin: 5px;
+   
+
+ }
+ .e-col3-row3{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    gap:5px;
+    align-items: center;
+
+ }
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+ .e-col1-row4{
+    display: grid;
+    grid-column: 1;
+    grid-row:4;
+    gap:5px;
+   text-align: start;
+
+ }
+ .e-col2-row4{
+    display: grid;
+    grid-column: 2;
+    grid-row:4;
+    gap:5px;
+    text-align: start;
+
+ }
+ .e-col3-row4{
+    display: grid;
+    grid-column: 3;
+    grid-row: 4;
+    gap:5px;
+    text-align: start;
+  
+ }
+ .btn2 {
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: medium;
+    padding: 5px;
+    border-radius:5px;
+    
+    cursor: pointer;}
+
+    .e-colm3-row5{
+        display: grid;
+        grid-column: 3;
+        grid-row:5;
+        align-items: end;
+        margin: 50px ;}
